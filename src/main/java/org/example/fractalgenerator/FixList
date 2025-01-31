@@ -1,0 +1,26 @@
+Issues
+The FixList file is currently empty and does not contain any code or comments. FIXED
+The drawJuliaSet method does not handle potential exceptions that might occur during the rendering process. ONGOING
+The saveImage method does not handle cases where the user cancels the file save dialog.
+The getColor method has a hardcoded "Custom" color mode that relies on an undefined customColor variable.
+The applyDarkTheme and applyLightTheme methods do not handle potential null values in the nodes array.
+The addTooltips method has hardcoded tooltip text that might not cover all possible control types or prompt texts.
+
+Working Things
+The drawJuliaSet method correctly renders the Julia set fractal based on the given parameters.
+The drawKochSnowflake method correctly draws the Koch snowflake fractal with the specified depth and color.
+The getColor method correctly returns colors based on the iteration count and color mode.
+The updateStatus method updates the status text with the current zoom factor and coordinates.
+The saveImage method successfully saves the canvas image to a file when the user selects a file location.
+The showAlert method displays an alert dialog with the specified title and message.
+The resetView method resets the view parameters and redraws the fractal.
+The applyDarkTheme and applyLightTheme methods apply the respective themes to the given nodes.
+The addTooltips method adds tooltips to the specified controls based on their type and prompt text.
+The main method launches the application.
+
+Suggestions
+Add comments to the FixList file to describe the purpose and contents of the class.
+Add exception handling to the drawJuliaSet method to catch and handle potential rendering errors.
+Improve the saveImage method to handle cases where the user cancels the file save dialog gracefully
+
+i am so confused
