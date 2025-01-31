@@ -45,6 +45,7 @@ public class Human {
         System.out.println("Goodnight, " + name + "! Sweet dreams!");
     }
 
+    // This method is not accessible from outside the class
     public void sayGoodafternoon() {
         System.out.println("Good afternoon, " + name + "! How is your day going?");
     }

@@ -24,3 +24,4 @@ Add exception handling to the drawJuliaSet method to catch and handle potential 
 Improve the saveImage method to handle cases where the user cancels the file save dialog gracefully
 
 i am so confused
+what  the hell is this
